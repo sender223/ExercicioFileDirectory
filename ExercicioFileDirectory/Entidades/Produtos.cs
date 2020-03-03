@@ -6,9 +6,9 @@
         public int Quantidade { get; set; }
 
         //construtor padrão com argumentos.
-        public Produtos(string nome, double price, int quantidade) {
+        public Produtos(string nome, double preco, int quantidade) {
             Nome = nome;
-            Preco = Preco;
+            Preco = preco;
             Quantidade = quantidade;
         }
 
@@ -16,7 +16,5 @@
         public double Total() {
             return Preco * Quantidade;
         }
-
-
     }
 }
